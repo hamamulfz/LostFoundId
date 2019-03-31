@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 require_once 'vendor/autoload.php';
 require_once "./random_string.php";
 use MicrosoftAzure\Storage\Blob\BlobRestProxy;
@@ -21,7 +21,7 @@ $listBlobsOptions = new ListBlobsOptions();
 $listBlobsOptions->setPrefix("");
 $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 ?>
- -->
+
 <!DOCTYPE html>
 <html>
  <head>
@@ -68,7 +68,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
         </div>
         <br>
         <br>
-        <!-- <h4>Total Files : <?php echo sizeof($result->getBlobs())?></h4> -->
+         <h4>Total Files : <?php echo sizeof($result->getBlobs())?></h4>
         <table class='table table-hover'>
             <thead>
                 <tr>
@@ -78,7 +78,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                 </tr>
             </thead>
             <tbody>
-               <!--  <?php
+               <?php
                 do {
                     foreach ($result->getBlobs() as $blob)
                     {
@@ -97,7 +97,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
                     }
                     $listBlobsOptions->setContinuationToken($result->getContinuationToken());
                 } while($result->getContinuationToken());
-                ?> -->
+                ?> 
             </tbody>
         </table>
 
