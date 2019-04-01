@@ -43,6 +43,12 @@ if (isset($_POST['analyze'])) {
 	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	</head>
 	<body>
+		<div >
+		    <ul>
+		        <li><a href="#">Home Input</a></li>
+		        <li><a href="storage/storage.php">Storage And Computer Vision</a></li>
+		    </ul>
+		</div>
 		<div  class="container">		
 			<h1>Pelaporan Barang Hilang dan Temuan Barang</h1>
 			<p class="lead">Pilih Gambar Barang.</p>

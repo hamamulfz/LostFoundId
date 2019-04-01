@@ -1,6 +1,6 @@
 <html>
  <head>
- <Title>Registration Form</Title>
+ <Title>Home</Title>
  <style type="text/css">
  	body { background-color: #fff; border-top: solid 10px #000;
  	    color: #333; font-size: .85em; margin: 20; padding: 20;
@@ -16,8 +16,17 @@
  </style>
  </head>
  <body>
- <h1>Register here!</h1>
- <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
+<div >
+    <ul>
+        <li><a href="#">Home Input</a></li>
+        <li><a href="storage/storage.php">Storage And Computer Vision</a></li>
+    </ul>
+</div>
+
+ <h1>Input Barang Hilang</h1>
+ <p>Isikan Nama, Kontak Email dan Nama Barang yang Hilang.</p>
+ <p>Kemudian Upload Foto Barang Tersebut Ke Halaman "Storage And Computer Vision" </p>
+ <p>Kami akan menghubungi anda jika barang anda ditemukan.</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Name  <input type="text" name="name" id="name"/></br></br>
        Email <input type="text" name="email" id="email"/></br></br>
@@ -66,10 +75,10 @@
             if(count($registrants) > 0) {
                 echo "<h2>People who are registered:</h2>";
                 echo "<table>";
-                echo "<tr><th>Name</th>";
+                echo "<tr><th>Nama</th>";
                 echo "<th>Email</th>";
-                echo "<th>Job</th>";
-                echo "<th>Date</th></tr>";
+                echo "<th>Nama Barang</th>";
+                echo "<th>Tanggal Laporan</th></tr>";
                 foreach($registrants as $registrant) {
                     echo "<tr><td>".$registrant['name']."</td>";
                     echo "<td>".$registrant['email']."</td>";
