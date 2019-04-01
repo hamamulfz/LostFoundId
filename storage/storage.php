@@ -96,6 +96,7 @@ if (isset($_POST['analyze'])) {
 		<br><br>
 		<hr width="70%" align="left">
 		<hr width="70%" align="left">
+
 		<script type="text/javascript">
 		    function processImage() {
 		        var subscriptionKey = "bdf9d07cedca4a69a9f3f643aaebe034";
@@ -162,4 +163,5 @@ if (isset($_POST['analyze'])) {
 		    </div>
 		</div>
 	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </html>
