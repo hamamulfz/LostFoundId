@@ -52,11 +52,12 @@ if (isset($_POST['analyze'])) {
 		</div>
 		<div  class="container">		
 			<h1>Pelaporan Barang Hilang dan Temuan Barang</h1>
-			<p class="lead">Pilih Gambar Barang.</p>
+			<p >Pilih Gambar Barang.</p>
 
 			<div >
 				<form  action="" method="post" enctype="multipart/form-data">
 					<input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="">
+					<br>
 					<input type="submit" name="submit" value="Upload">
 				</form>
 			</div>
