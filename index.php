@@ -29,7 +29,7 @@
      <p>Kami akan menghubungi anda jika barang anda ditemukan.</p>
      <br><br>
      <form method="post" action="index.php" enctype="multipart/form-data" >
-           Name  <input type="text" name="name" id="name"/></br></br>
+           Nama  <input type="text" name="name" id="name"/></br></br>
            Email <input type="text" name="email" id="email"/></br></br>
            Nama Barang <input type="text" name="job" id="job"/></br></br>
            <input type="submit" name="submit" value="Submit" />

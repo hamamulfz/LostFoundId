@@ -45,8 +45,8 @@ if (isset($_POST['analyze'])) {
 	<body>
 		<div >
 		    <ul>
-		        <li><a href="#">Home Input</a></li>
-		        <li><a href="storage/storage.php">Storage And Computer Vision</a></li>
+		        <li><a href="../index.php">Home Input</a></li>
+		        <li><a href="#">Storage And Computer Vision</a></li>
 		    </ul>
 		</div>
 		<div  class="container">		
