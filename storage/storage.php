@@ -40,7 +40,6 @@ if (isset($_POST['analyze'])) {
 		<meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	    <title>Submit Storage & Analyze</title>
-	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	</head>
 	<body>
 		<div >
@@ -163,5 +162,5 @@ if (isset($_POST['analyze'])) {
 		    </div>
 		</div>
 	</body>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 </html>
